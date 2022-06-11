@@ -3,13 +3,9 @@ Using CSS to create a glassmorphism card-like profile page for a gamer.
 **2021 UI Design Trend.**  
 Inspired by and learned from Dev Ed.  
 
-<br>
-
 ### CSS code for creating glassmorphism background:
 
 #### Linear gradient
-<br>
-
 ```
 background: linear-gradient(
         to right bottom, 
@@ -19,10 +15,7 @@ background: linear-gradient(
 ```
 Note: we are using the background shorthand property.To be more specific, we can replace ```background``` with ```background-image``` to create the effect of gradient-colored background.
 
-<br>
-
 #### RGBA 
-<br>
 To create a glassy effect on a glass card or background, we shall use the rgba porperty in CSS. 
 
 ```
@@ -34,11 +27,9 @@ rgba(255, 255, 255, x)
 <br>
 
 ## Project Preview
-<br>
 
-![project_preview](https://github.com/lihuicham/game-profile-glassmorphism/blob/main/assets/images/project_preview.png)
+![project_preview](https://github.com/lihuicham/game-profile-glassmorphism/blob/main/assets/images/project_preview.PNG)
 
-<br>
 **Click here to view the Glassmorphism Game Profile Page: 
 [Project Demo](https://lihuicham.github.io/game-profile-glassmorphism/)**
 
