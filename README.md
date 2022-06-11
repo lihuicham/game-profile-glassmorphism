@@ -34,7 +34,7 @@ rgba(255, 255, 255, x)
 [Project Demo](https://lihuicham.github.io/game-profile-glassmorphism/)**
 
 Note:  
-This project focuses on using CSS to create a glassy background effect on a card design. Hence, responsive feature and media queries is ommited from the development phase.   
+This project focuses on using CSS to create a glassy background effect on a card design. Hence, responsive feature and media queries are ommited from the development phase.   
 The project is best viewed in 50% of browser (e.g. Google Chrome, Microsoft Edge) screen size. 
 
 
