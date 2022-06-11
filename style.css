@@ -4,7 +4,28 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.7;
+}
+
+h2, 
+p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
 main {
+    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     background-image: linear-gradient(
         to right top, #65dfc9, #6cdbeb);
@@ -24,6 +45,7 @@ main {
     border-radius: 2rem;
     z-index: 10000;
     backdrop-filter: blur(1.2rem);
+    display: flex;
 }
 
 .circle1, 
@@ -33,19 +55,165 @@ main {
         rgba(255, 255, 255, 0.8), 
         rgba(255, 255, 255, 0.3)
     ); 
-    height: 10rem;
-    width: 10rem;
     position: absolute;
     z-index: 1;
     border-radius: 50%;
 }
 
 .circle1 {
-    top: 5%;
-    right: 15%;
+    top: 3%;
+    right: 10%;
+    height: 40rem;
+    width: 40rem;
 }
 
 .circle2 {
+    height: 20rem;
+    width: 20rem;
     bottom: 5%;
     left: 15%;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.25)
+    );
+    border-radius: 2rem;
+}
+
+.user img {
+    max-width: 100%;
+    height: 10rem;
+    width: 10rem;
+    margin: 2rem 0rem
+}
+
+.user h3 {
+    font-size: 2rem
+}
+
+.user p {
+    font-size: 1.5rem;
+}
+
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 2rem;
+}
+
+.pro {
+    background-image: linear-gradient(
+        to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.pro img {
+    position: absolute;
+    top: -10%;
+    right: 10%;
+ }
+
+ .pro h2 {
+    width: 40%;
+    color: white;
+    font-weight: 600;
+ }
+
+ /* ----- GAMES ----- */
+
+ .status {
+    margin-bottom: 3rem;
+ }
+
+ .status input {
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.8), 
+        rgba(255, 255, 255, 0.3));
+    border: none;
+    width: 50%;
+    padding: 0.5;
+    border-radius: 2rem;
+    height: 30%;
+    margin-top: 1rem;
+ }
+
+ .games {
+    margin: 3rem;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} 
+
+.card {
+    display: flex;
+    background-image: linear-gradient(
+        to left top, 
+        rgba(255, 255, 255, 0.8), 
+        rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(112, 112, 112, 0.2);
+    justify-content: space-between;
+}
+
+.progress {
+    background-image: linear-gradient(
+        to right top, #65dfc9, #6cdbeb
+    );
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0.6rem;
+}
+
+.progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    left: 60%;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.percentage {
+    font-weight: bold;
+    background: linear-gradient(
+        to right top, #a2a8da, #4c82e6
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+    font-size: 2rem;
 }
